@@ -22,6 +22,8 @@ const HomeBannerItem = ({ item }: { item: BannerItemProps }) => {
         <Image
           src={item.product}
           alt={item.product}
+          width={300}
+          height={100}
           className="object-contain hover:scale-125 lg:w-[150px] w-[30vw] h-full  md:w-[15vw] lg:h-[150px] transition-all"
         />
       </div>
