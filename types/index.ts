@@ -66,3 +66,7 @@ export interface ProductsProps {
 export interface TrackProps {
   path?:string
 }
+export interface linksProps {
+  name?:string
+  link?:string
+}

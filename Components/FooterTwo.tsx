@@ -68,9 +68,11 @@ const FooterTwo = () => {
       child: [
         {
           name: "Call us : 0508408987",
+          link: "",
         },
         {
           name: "Email us : asamy@atech-uae.com",
+          link: "",
         },
       ],
     },
@@ -92,13 +94,13 @@ const FooterTwo = () => {
       {data.map((item, i) => (
         <div
           key={i}
-          className="flex items-center justify-center lg:items-start lg:justify-start w-full lg:w-1/4 flex-row  py-2"
+          className="flex items-center justify-center lg:items-start lg:justify-start w-full lg:w-1/4 flex-row py-2"
         >
           <div className="w-full flex-col flex items-start justify-start">
             <p className="text-base font-semibold text-black">{item.name}</p>
             <div className="flex flex-col gap-2">
               {item?.child?.map((link, i) =>
-                link.link ? (
+                link?.link ? ( // Use optional chaining here
                   <Link
                     href={link.link}
                     key={i}
@@ -107,8 +109,8 @@ const FooterTwo = () => {
                     {link.name}
                   </Link>
                 ) : (
-                  <p className="text-base text-[#6C6C6C] font-normal">
-                    {link.name}
+                  <p className="text-base text-[#6C6C6C] font-normal" key={i}>
+                    {link?.name}
                   </p>
                 )
               )}
