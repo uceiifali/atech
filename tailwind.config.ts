@@ -9,10 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        "slide1":"url('../public/bluebgbanner.png')",
+        "slide2":"url('../public/pinkbgbanner.png')",
+        "slide3":"url('../public/greenbgbanner.png')",
+        'phoneBG':"url('../public/PhoneBG.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        newGray:"#888888",
+        newGold:"#CA7400"
+      }
     },
   },
   plugins: [],

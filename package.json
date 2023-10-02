@@ -9,17 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@splidejs/react-splide": "^0.7.12",
+    "next": "latest",
     "react": "latest",
+    "react-countdown-simple": "^1.0.12",
     "react-dom": "latest",
-    "next": "latest"
+    "react-dropdown": "^1.11.0",
+    "react-icons": "^4.11.0",
+    "react-modal": "^3.16.1",
+    "react-rater": "^6.0.5",
+    "swiper": "^10.3.0"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
