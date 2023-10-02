@@ -19,7 +19,7 @@ const HomeSlider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handlePaginationClick = (carouselNumber) => {
+  const handlePaginationClick = (carouselNumber: number) => {
     setActiveCarousel(carouselNumber);
   };
 
