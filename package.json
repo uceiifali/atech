@@ -25,6 +25,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/react-modal": "^3.16.1",
     "autoprefixer": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
