@@ -23,7 +23,7 @@ const ProductBanners = () => {
         pagination: false,
         autoplay: true,
       }}
-      className="w-[100vw] "
+      className="w-[100vw]"
     >
       {banners?.map((item, i) => (
         <SplideSlide key={i}>

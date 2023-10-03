@@ -45,9 +45,19 @@ export interface TopSellingItemProps {
   image: string;
   outOfStock:boolean;
   discount?: string;
+  newPrice: number; // Assuming product is a string path
+  stars?:number
+  oldPrice:number; 
+  
+}
+export interface TopSellingItemProps2 {
+  item: {name: string; // Assuming logo is a string path
+  image: string;
+  outOfStock:boolean;
+  discount?: string;
   newPrice: string; // Assuming product is a string path
   stars?:number
-  oldPrice:string; 
+  oldPrice:string; }
 }
 export interface RangeProps {
   percentage:number
@@ -61,7 +71,7 @@ export interface DateProps {
   seconds :number
 }
 export interface ProductsProps {
-  full?:Boolean
+  full: boolean| undefined
 }
 export interface TrackProps {
   path?:string

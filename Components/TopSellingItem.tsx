@@ -12,7 +12,7 @@ const TopSellingItem = ({
   full,
 }: {
   item: TopSellingItemProps;
-  full: ProductsProps;
+  full?: boolean;
 }) => {
   return (
     <div

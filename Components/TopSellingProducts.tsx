@@ -19,7 +19,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
   const data = [
     {
       name: "Smart Phone “URBAN 3 PLUS”",
-      image: TopSel1,
+      image: TopSel1.src,
       outOfStock: true,
       discount: "-7%",
       stars: 3,
@@ -28,7 +28,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
     },
     {
       name: "Récepteur Satellite TORNADO TR400",
-      image: TopSel2,
+      image: TopSel2.src,
       outOfStock: false,
       discount: "-12%",
       stars: 2,
@@ -37,7 +37,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
     },
     {
       name: "CSB-T600",
-      image: TopSel3,
+      image: TopSel3.src,
       outOfStock: true,
       // discount: "-7%",
       stars: 3,
@@ -46,7 +46,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
     },
     {
       name: "Gas Water Heater 16 liters ",
-      image: TopSel4,
+      image: TopSel4.src,
       outOfStock: false,
       discount: "-2%",
       stars: 4,
@@ -55,7 +55,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
     },
     {
       name: "Smart Phone “URBAN 3 PLUS”",
-      image: TopSel5,
+      image: TopSel5.src,
       outOfStock: true,
       discount: "-4%",
       stars: 5,
@@ -90,7 +90,8 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
         >
           {data?.map((item) => (
             <SplideSlide
-              className={`w flex items-center justify-center ${
+              key={item.name}
+              className={` flex items-center justify-center ${
                 full ? "w-[100vw]" : "lg:w-[259px]"
               }   p-3`}
             >

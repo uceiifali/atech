@@ -27,7 +27,7 @@ const TopSellingHomeScall = () => {
         <SectionHeader mark="Top" title="Selling Products" />
         <TopSellingProducts full={false} />
         <div className="flex lg:items-center justify-between flex-col gap-4 lg:gap-0 lg:flex-row  w-full  lg:h-[500px] ">
-          <TopSellingBottomProduct2Pic />
+          <TopSellingBottomProduct2Pic full={false} />
           <TopSellingBottomProduc />
         </div>
       </div>

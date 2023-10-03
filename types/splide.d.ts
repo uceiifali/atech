@@ -10,6 +10,7 @@ declare module '@splidejs/react-splide' {
     }
   
     export function Splide(props: SplideProps): JSX.Element;
-    export function SplideSlide(props: { children: ReactNode }): JSX.Element;
+    export function SplideSlide(props: { children: ReactNode ,      className?: string;
+    }): JSX.Element;
   }
   
