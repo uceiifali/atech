@@ -36,6 +36,7 @@ const LastNavMobileSideBar = ({ isSidebarOpen, setSidebarOpen }: menuProps) => {
           <Link
             key={i}
             href={item.link}
+            onClick={() => setSidebarOpen(false)}
             className="text-black font-medium text-lg  "
           >
             {item.name}

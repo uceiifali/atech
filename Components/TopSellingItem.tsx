@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import TopSel1 from "@/public/topsel1.png";
 import Image from "next/image";
 import Rater from "react-rater";
 import "react-rater/lib/react-rater.css";
@@ -40,6 +39,8 @@ const TopSellingItem = ({
       </div>
       <Image
         src={item.image}
+        width={180}
+        height={186}
         alt="TopSel1"
         className="h-[180px] object-contain w-[186px] group-hover:opacity-50 transition-all"
       />

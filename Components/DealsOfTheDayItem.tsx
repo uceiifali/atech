@@ -5,6 +5,8 @@ import CondorMobile from "@/public/CondorMobile.png";
 import Rater from "react-rater";
 import RangeBar from "./RangeBar";
 import CountDown from "./CountDown";
+import "react-rater/lib/react-rater.css";
+
 const DealsOfTheDayItem = () => {
   return (
     <div className="lg:h-[350px] h-full  flex items-center justify-center flex-col lg:flex-row w-full lg:w-[50vw] border-b-2  lg:border-b-0 lg:border-r-2 pb-2 lg:pr-4 mt-4 border-[#EBEBEB]">

@@ -12,6 +12,7 @@ const config: Config = {
         "slide1":"url('../public/bluebgbanner.png')",
         "slide2":"url('../public/pinkbgbanner.png')",
         "slide3":"url('../public/greenbgbanner.png')",
+        "aboutBanner":"url('../public/AboutBanner.png')",
         'phoneBG':"url('../public/PhoneBG.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -19,7 +20,8 @@ const config: Config = {
       },
       colors:{
         newGray:"#888888",
-        newGold:"#CA7400"
+        newGold:"#CA7400",
+        newBlack:"#222",
       }
     },
   },

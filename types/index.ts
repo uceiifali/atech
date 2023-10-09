@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import { IconType } from "react-icons";
 import { IconBaseProps } from 'react-icons/lib'
 
@@ -29,7 +30,7 @@ export interface menuItemProps {
 }
   export interface sectionHeaderProps {
     mark: string;
-    title: string;
+    title?: string;
     titleBold?:string
 }
 
@@ -79,4 +80,41 @@ export interface TrackProps {
 export interface linksProps {
   name?:string
   link?:string
+}
+export interface BlogLeftBarSectionTwoProps {
+    image:StaticImageData
+    title?:string
+    date?:string
+}
+export interface BlogBodyItemProps {
+  img: StaticImageData,
+  title: string,
+  person: string,
+  time:string,
+  desc:string,
+  cat:string
+  id?:number
+}
+export interface aboutActivityItemProps {
+  logo: StaticImageData,
+  title: string,
+  desc: string,
+  id:number
+
+}
+export interface shopCategoryProps {
+  name?: string;
+  categories: {
+    name?: string;
+    products?: string;
+    id: number;
+    brand?: string;
+    color?: string;
+    price?: string;
+    size?: string;
+  }[];
+}
+export interface BlogBodyByIdProps {
+  id?:string;
+
 }
