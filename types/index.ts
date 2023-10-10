@@ -15,7 +15,11 @@ export interface menuItemProps {
   export interface wishListProps {
     isSidebarOpen: boolean;
     setSidebarOpen: (isOpen: boolean) => void;
+    product?: StaticImageData | string | null; // Allow product to be null or a StaticImageData or a string
+    setProduct?: (product: StaticImageData | string | null) => void; // Update setProduct accordingly
   }
+  
+
   export interface shoppingCartProps {
     isShoppingCartOpen: boolean;
     setShoppingCartOpen: (isOpen: boolean) => void;
@@ -100,7 +104,11 @@ export interface aboutActivityItemProps {
   title: string,
   desc: string,
   id:number
-
+}
+export interface AboutVissionProps {
+  img: StaticImageData,
+  title: string,
+  desc: string,
 }
 export interface shopCategoryProps {
   name?: string;

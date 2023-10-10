@@ -27,16 +27,18 @@ const AboutActivity = () => {
     },
   ];
   return (
-    <div className="bg-[#F6F7F9] flex items-center justify-center flex-col">
-      <p className="text-4xl font-semibold text-newBlack">ATECH ACTIVITY</p>
-      <p className="text-base text-[#909090] font-medium w-[80vw]">
+    <div className="bg-[#F6F7F9] flex items-center justify-center flex-col p-12 gap-6">
+      <p className="text-2xl lg:text-4xl font-semibold text-newBlack">
+        ATECH ACTIVITY
+      </p>
+      <p className="text-sm lg:text-base text-[#909090] font-medium w-[80vw]">
         ATECH is a company that is striving to become a top player in the
         trading industry by meeting the demands of customers in North Africa and
         the Middle East. The company offers a diverse range of goods to ensure
         its success and profitability. Its primary focus is on trading home
         appliances.
       </p>
-      <div className="flex flex-row  items-center justify-around w-full">
+      <div className="flex flex-col lg:flex-row gap-4 items-center justify-around w-full">
         {data.map((item) => (
           <AboutActivityItem item={item} key={item.title} />
         ))}

@@ -79,7 +79,7 @@ const FooterTwo = () => {
   ];
   return (
     <div className="w-[100vw] flex items-center lg:items-start h-full lg:h-[200px] justify-center gap-4 flex-col lg:flex-row px-4 py-2 ">
-      <div className="w-full lg:w-1/3 px-4  flex items-start justify-start flex-col">
+      <div className="w-full lg:w-1/3 lg:px-4  flex items-start justify-start flex-col">
         <Image
           src={AtechLogo}
           className="object-contain w-[219.263px] h-[79.368px]"
