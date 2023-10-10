@@ -6,7 +6,9 @@ import BlogBanner3 from "@/public/BlogBanner2.png";
 import Image from "next/image";
 import BlogDesc from "@/Components/BlogDesc";
 import BlogComment from "@/Components/BlogComment";
-const page = ({ params }: { params: BlogBodyByIdProps }) => {
+// { params }: { params: BlogBodyByIdProps }
+
+const page = () => {
   const colors = [
     { color: "#2D88FF" },
     { color: "#0ECAE6" },

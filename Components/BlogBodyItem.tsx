@@ -28,7 +28,7 @@ const BlogBodyItem = ({ item }: { item: BlogBodyItemProps }) => {
       <div className="w-full h-[1px] bg-[#E5E5E5]" />
       <button
         className="bg-[#F6F6F6] border border-[#EBEBEB] text-[#222] font-semibold text-sm w-40 h-16 rounded-full"
-        onClick={() => router.push(`/blog/${item.id}`)}
+        onClick={() => router.push(`/Bloggg`)}
       >
         Read More
       </button>

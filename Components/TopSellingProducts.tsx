@@ -88,9 +88,9 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
           }}
           aria-label="My Favorite Images"
         >
-          {data?.map((item) => (
+          {data?.map((item, i) => (
             <SplideSlide
-              key={item.name}
+              key={i}
               className={` flex items-center justify-center ${
                 full ? "w-[100vw]" : "lg:w-[259px]"
               }   p-3`}
