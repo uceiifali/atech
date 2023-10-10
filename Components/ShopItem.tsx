@@ -3,6 +3,7 @@ import React from "react";
 import Prodct from "@/public/topsel1.png";
 import Rater from "react-rater";
 import "react-rater/lib/react-rater.css";
+import Link from "next/link";
 
 const ShopItem = ({ grid }: { grid: number }) => {
   return (
@@ -37,9 +38,13 @@ const ShopItem = ({ grid }: { grid: number }) => {
         <button className="w-[174.8px] h-[40px] rounded bg-newGold text-sm text-white font-medium">
           Add To Cart
         </button>
-        <button className="w-[174.8px] h-[40px] rounded bg-[#fff] text-sm text-[#888] font-medium border border-[#888] mt-4 ">
+        <Link
+          href="/ShopItem
+"
+          className="w-[174.8px] h-[40px] rounded bg-[#fff] text-sm text-[#888] flex items-center justify-center font-medium border border-[#888] mt-4 "
+        >
           Quick View
-        </button>
+        </Link>
       </div>
     </div>
   );
