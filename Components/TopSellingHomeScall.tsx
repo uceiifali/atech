@@ -8,7 +8,7 @@ import TopSellingBottomProduct2Pic from "./TopSellingBottomProduct2Pic";
 import SectionHeader from "./SectionHeader";
 const TopSellingHomeScall = () => {
   return (
-    <div className=" w-full lg:w-[100vw] h-full lg:h-[98vh] flex-col lg:flex-row p-1 lg:p-8 flex gap-8 items-start justify-start pb-8">
+    <div className=" w-full lg:w-[100vw] h-full lg:h-[98vh] flex-col lg:flex-row p-1 lg:p-8 flex gap-8 items-start justify-start pb-16">
       <div className=" w-full md:h-[70vh]  md:w-[50vw] md:self-center  lg:w-[20vw]  rounded-lg h-[90vh] lg:h-[90vh]  bg-phoneBG bg-contain bg-center   bg-no-repeat flex gap-4 items-center justify-center flex-col p-8 lg:p-0">
         <Image
           src={AceLogo}

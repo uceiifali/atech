@@ -10,7 +10,7 @@ import "react-rater/lib/react-rater.css";
 const DealsOfTheDayItem = () => {
   return (
     <div className="lg:h-[350px] h-full  flex items-center justify-center flex-col lg:flex-row w-full lg:w-[50vw] border-b-2  lg:border-b-0 lg:border-r-2 pb-2 lg:pr-4 mt-4 border-[#EBEBEB]">
-      <div className=" w-[40vw]   h-full flex items-end justify-center relative">
+      <div className=" lg:w-[40vw] w-full   h-full flex items-end justify-center relative">
         <div className="absolute right-4 top-8  rounded bg-newGold w-[50px] h-[20px] flex items-center justify-center">
           <p className="text-xs text-white font-normal">360</p>
         </div>

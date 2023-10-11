@@ -39,8 +39,7 @@ const ShopItem = ({ grid }: { grid: number }) => {
           Add To Cart
         </button>
         <Link
-          href="/ShopItem
-"
+          href="/ShopItem/"
           className="w-[174.8px] h-[40px] rounded bg-[#fff] text-sm text-[#888] flex items-center justify-center font-medium border border-[#888] mt-4 "
         >
           Quick View
