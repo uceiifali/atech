@@ -27,7 +27,7 @@ const MidNavItem = ({
       <div className="lg:w-[4rem] w-[2rem] h-[2rem] lg:h-[2.5rem] flex border-2 border-[#E6E6E6] rounded-full items-center justify-center relative">
         {logo}
         {badge !== undefined && badge !== null && (
-          <div className="w-4 h-4 bg-[#CA7400] absolute -top-1 -right-1 flex items-center justify-center rounded-full">
+          <div className="w-4 h-4 bg-[#CA7400] absolute -top-2 -right-2 lg:-top-1 lg:-right-1 flex items-center justify-center rounded-full">
             <p className="text-xs text-white">{badge}</p>
           </div>
         )}

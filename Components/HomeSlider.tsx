@@ -5,7 +5,7 @@ import CarouselTwo from "./CarouselTwo";
 import CarouselThree from "./CarouselThree";
 
 const HomeSlider = () => {
-  const [activeCarousel, setActiveCarousel] = useState(3);
+  const [activeCarousel, setActiveCarousel] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {

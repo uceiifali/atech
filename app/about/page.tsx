@@ -6,7 +6,7 @@ import React from "react";
 
 const about = () => {
   return (
-    <div>
+    <div className="py-4">
       <AboutBody />
       <AboutBanner />
       <AboutActivity />

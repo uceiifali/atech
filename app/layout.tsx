@@ -8,8 +8,11 @@ import Footer from "@/Components/Footer";
 export const metadata: Metadata = {
   title: "Atech",
   description: "Atech",
+  icons: {
+    icon: "./favicon.ico",
+    apple: "./favicon.ico",
+  },
 };
-
 export default function RootLayout({
   children,
 }: {
