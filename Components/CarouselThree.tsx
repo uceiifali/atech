@@ -18,7 +18,7 @@ const CarouselThree = () => {
         <p className="text-white uppercase font-light text-base lg:text-6xl py-2 lg:py-5 TextAnimate">
           SCG 40H AV
         </p>
-        <p className="text-white uppercase font-normal text-xs lg:text-base text-center lg:text-left leading-5  lg:leading-loose py-5 DescAnimate">
+        <p className="text-white uppercase font-normal text-sm lg:text-base text-center lg:text-left leading-5  lg:leading-loose py-5 DescAnimate">
           4 burner gas – Semi-flush design – High Efficiencyburners for low
           consumption – Cast-iron pan supportswith coordinated burner caps – AV
           electronic ignitionand safety valves
@@ -30,7 +30,7 @@ const CarouselThree = () => {
       <Image
         src={Product}
         alt="product1"
-        className="object-contain animatePic1 w-[55vw] lg:w-[40vw]  h-[50vh] lg:h-[40vh]"
+        className="object-contain animatePic1 w-[100vw] lg:w-[40vw]  h-[50vh] lg:h-[40vh]"
         priority={false}
       />
     </div>
