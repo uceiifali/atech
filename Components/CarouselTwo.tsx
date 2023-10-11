@@ -8,7 +8,7 @@ import Product14 from "../public/phone1-4.png";
 import Product15 from "../public/phone1-5.png";
 const CarouselTwo = () => {
   return (
-    <div className="lg:w-[73vw] w-[99vw] rounded-md h-[700px] lg:h-[500px] relative p-4 flex items-center justify-center bg-fixed bg-center bg-no-repeat flex-col lg:flex-row	bg-cover bg-slide2">
+    <div className="lg:w-[73vw] w-[99vw] overflow-hidden rounded-md h-[700px] lg:h-[500px] relative p-4 flex items-center justify-center bg-fixed bg-center bg-no-repeat flex-col lg:flex-row	bg-cover bg-slide2">
       <div className="lg:w-[40vw] w-full flex items-center lg:items-start justify-center lg:justify-between flex-col lg:px-8 py-4">
         <div className="flex items-center justify-center lg:items-start flex-col gap-2 logoAnimate">
           <Image
@@ -19,14 +19,14 @@ const CarouselTwo = () => {
             className="object-contain"
           />
         </div>
-        <p className="text-white uppercase font-light text-base lg:text-5xl w-full lg:w-[15vw] py-3 text-center lg:text-left TextAnimate">
+        <p className="text-white uppercase font-light text-base lg:text-4xl w-full lg:w-[15vw] py-3 text-center lg:text-left TextAnimate">
           URBAN 2 HIT THE GROUND
         </p>
-        <p className="text-white uppercase font-normal text-base lg:leading-loose pb-3 w-[50vw] lg:w-[30vw] DescAnimate text-center lg:text-left">
+        <p className="text-white uppercase font-normal text-base  pb-3 w-[50vw] lg:w-[30vw] DescAnimate text-center lg:text-left">
           The Urban 2 has an extraordinary design. Which comes in four degrade
           colors that will satisfy everyone's tastes
         </p>
-        <button className="w-[40vw] lg:w-[13vw] h-[4vh] lg:h-[7vh] bg-white rounded  text-base font-semibold py-5 flex items-center justify-center buttonAnimation">
+        <button className="w-[40vw] lg:w-[13vw] h-[4vh] lg:h-[7vh]  md:h-[5vh] bg-white rounded  text-base font-semibold py-5 flex items-center justify-center buttonAnimation">
           Get it Now
         </button>
       </div>

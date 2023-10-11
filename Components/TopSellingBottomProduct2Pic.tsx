@@ -8,7 +8,7 @@ const TopSellingBottomProduct2Pic = ({ full }: ProductsProps) => {
   return (
     <div
       className={` ${
-        full ? "lg:w-[50vw]" : "lg:w-[520px]"
+        full ? "lg:w-[50vw]" : "lg:w-[33vw]"
       } w-[98vw]  h-[169.202px] bg-gradient-to-r from-[#012343] to-[#014179] lg:hover:from-[#003d77] lg:hover:to-[#0067c2]  transition-all hover:bg-[#655A8F] flex rounded flex-col lg:flex-row px-2 lg:px-6 overflow-hidden group p-2 gap-3`}
     >
       <div className="lg:w-1/2 w-full h-full flex items-center justify-center lg:items-start lg:justify-around flex-col">
@@ -30,12 +30,12 @@ const TopSellingBottomProduct2Pic = ({ full }: ProductsProps) => {
         <Image
           src={CondorWatch}
           alt="CondorTV"
-          className="object-contain lg:w-[400px] w-full  h-[80px] lg:h-full lg:group-hover:translate-y-56 transition-all"
+          className="object-contain lg:w-[20vw] w-full  h-[80px] lg:h-full lg:group-hover:translate-y-56 transition-all"
         />
         <Image
           src={CondorWatch2}
           alt="CondorTV2"
-          className="object-contain lg:w-[400px] w-full  h-[80px] lg:h-full translate-y-40 lg:group-hover:-translate-y-40 transition-all"
+          className="object-contain lg:w-[20vw] w-full  h-[80px] lg:h-full translate-y-40 lg:group-hover:-translate-y-40 transition-all"
         />
       </div>
     </div>

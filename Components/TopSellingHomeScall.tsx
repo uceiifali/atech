@@ -8,8 +8,8 @@ import TopSellingBottomProduct2Pic from "./TopSellingBottomProduct2Pic";
 import SectionHeader from "./SectionHeader";
 const TopSellingHomeScall = () => {
   return (
-    <div className=" w-full lg:w-[100vw] h-full lg:h-[98vh] flex-col lg:flex-row p-1 lg:p-8 flex gap-8 items-start justify-start">
-      <div className=" w-full md:h-[60vh]  lg:w-[25vw]  rounded-lg h-[90vh] lg:h-[90vh]  bg-phoneBG bg-contain bg-center   bg-no-repeat flex gap-4 items-center justify-center flex-col p-8 lg:p-0">
+    <div className=" w-full lg:w-[100vw] h-full lg:h-[98vh] flex-col lg:flex-row p-1 lg:p-8 flex gap-8 items-start justify-start pb-8">
+      <div className=" w-full md:h-[70vh]  md:w-[50vw] md:self-center  lg:w-[20vw]  rounded-lg h-[90vh] lg:h-[90vh]  bg-phoneBG bg-contain bg-center   bg-no-repeat flex gap-4 items-center justify-center flex-col p-8 lg:p-0">
         <Image
           src={AceLogo}
           alt="AceLogo"
@@ -18,7 +18,7 @@ const TopSellingHomeScall = () => {
         <Image
           src={Phone}
           alt="Phone"
-          className="object-contain w-[391.291px] lg:h-[270.831px] md:h-[350px] h-[45vh]"
+          className="object-contain w-[80vw] lg:h-[40vh] md:h-[30vh] h-[40vh]"
         />
         <p className="text-white font-medium text-4xl">BUZZ 3G</p>
         <p className="text-xl text-[#C0C0C0] font-normal">SC7731E</p>

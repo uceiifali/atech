@@ -18,7 +18,7 @@ import { ProductsProps } from "@/types";
 const TopSellingProducts = ({ full }: ProductsProps) => {
   const data = [
     {
-      name: "Smart Phone “URBAN 3 PLUS”",
+      name: "URBAN 3 PLUS",
       image: TopSel1.src,
       outOfStock: true,
       discount: "-7%",
@@ -27,7 +27,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
       newPrice: 210,
     },
     {
-      name: "Récepteur Satellite TORNADO TR400",
+      name: " TORNADO TR400",
       image: TopSel2.src,
       outOfStock: false,
       discount: "-12%",
@@ -45,7 +45,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
       newPrice: 110,
     },
     {
-      name: "Gas Water Heater 16 liters ",
+      name: "Water Heater 16 liters ",
       image: TopSel4.src,
       outOfStock: false,
       discount: "-2%",
@@ -54,7 +54,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
       newPrice: 200,
     },
     {
-      name: "Smart Phone “URBAN 3 PLUS”",
+      name: "URBAN 3 PLUS",
       image: TopSel5.src,
       outOfStock: true,
       discount: "-4%",
@@ -64,7 +64,7 @@ const TopSellingProducts = ({ full }: ProductsProps) => {
     },
   ];
   return (
-    <div className={` w-full ${full ? "w-[]100vw" : "lg:w-[70vw]"}  `}>
+    <div className={` w-full ${full ? "w-[100vw]" : "lg:w-[70vw]"}  `}>
       <div className="flex items-center py-7  w-full ">
         <Splide
           options={{
