@@ -17,7 +17,7 @@ const WishListSideBar = ({ isSidebarOpen, setSidebarOpen }: wishListProps) => {
       overlayClassName="overlay"
       className={
         isSidebarOpen
-          ? "modal-content fixed top-0 right-0 bg-white rounded-md h-[100vh] md:w-[50vw] lg:w-[27vw]  w-[65vw]  flex items-center flex-col "
+          ? "modal-content fixed top-0 right-0 bg-white rounded-md h-[100vh] md:w-[50vw] lg:w-[27vw]  w-[65vw]  flex items-center flex-col z-50 "
           : "modalClosed"
       }
     >

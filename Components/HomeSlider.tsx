@@ -5,19 +5,19 @@ import CarouselTwo from "./CarouselTwo";
 import CarouselThree from "./CarouselThree";
 
 const HomeSlider = () => {
-  const [activeCarousel, setActiveCarousel] = useState(3);
+  const [activeCarousel, setActiveCarousel] = useState(2);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveCarousel((prevActiveCarousel) => {
-        // If the current activeCarousel is 3, reset it to 1; otherwise, increment it.
-        return prevActiveCarousel === 3 ? 1 : prevActiveCarousel + 1;
-      });
-    }, 5000); // 5000 milliseconds = 5 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setActiveCarousel((prevActiveCarousel) => {
+  //       // If the current activeCarousel is 3, reset it to 1; otherwise, increment it.
+  //       return prevActiveCarousel === 3 ? 1 : prevActiveCarousel + 1;
+  //     });
+  //   }, 5000); // 5000 milliseconds = 5 seconds
 
-    // Clear the interval when the component unmounts
-    return () => clearInterval(interval);
-  }, []);
+  //   // Clear the interval when the component unmounts
+  //   return () => clearInterval(interval);
+  // }, []);
 
   const handlePaginationClick = (carouselNumber: number) => {
     setActiveCarousel(carouselNumber);

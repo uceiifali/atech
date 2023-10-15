@@ -55,7 +55,7 @@ const CarouselTwo = () => {
           className="object-contain photoSlide hidden lg:flex   w-[146.276px] h-[40vh]  absolute right-[12.5vw] z-20"
           priority={false}
         />
-        <div className=" items-center justify-evenly flex-row flex  mobileAnimation absolute z-30 lg:right-2">
+        <div className=" items-center justify-evenly flex-row flex  mobileAnimation absolute  lg:right-2">
           <Image
             src={Product}
             alt="product1"

@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 .modal-content {
     animation: slide 0.5s forwards;
     transform: translateX(100%);
-    z-index: 1000000 !important;
+    z-index: 100 !important;
 }
 .modal-product {
     animation: bigger 0.8s forwards;
